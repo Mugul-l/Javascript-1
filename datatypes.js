@@ -35,3 +35,6 @@ console.log(typeof num);
  }
  console.log(typeof myFunc);  //Function
  
+
+ //Memory
+ //Premitive-Stack memory & Non-premitive/reference:Heap memory
