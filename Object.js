@@ -41,7 +41,7 @@ let User2={} //also an obj but not singleton
 User2.name="Anshuman Biswal"
 User2.age=22
 User2.occupation="Engineer"
-console.log(User2);         //{ name: 'Anshuman Biswal', age: 22, occupation: 'Engineer' }
+//console.log(User2);         //{ name: 'Anshuman Biswal', age: 22, occupation: 'Engineer' }
 
 let User3 ={
     User:{
@@ -52,7 +52,7 @@ let User3 ={
 
     }
 }
-console.log(User3.User.Fullname);
+//console.log(User3.User.Fullname);
 
 //Add Object 
 let obj1 = {"1":"a","2":"b"}
@@ -64,7 +64,7 @@ let obj2 = {"3":"c","4":"d"}
 //give {} so that it will first create an empty string then inside that empty string the rest strings will be added
 
 let obj3= {...obj1,...obj2};    //Spread method like array
-console.log(obj3);
+//console.log(obj3);
 
 //Array of Objects
 
@@ -78,4 +78,28 @@ let obj4=[
         age:20
     }
 ]
-console.log(obj4[2].name);
+
+// console.log(Object.keys(obj1));        //[ '1', '2' ]
+// console.log(Object.values(obj1));       //[ 'a', 'b' ]
+// console.log(Object.entries(obj1));      //[ [ '1', 'a' ], [ '2', 'b' ] ]
+
+// Object Destructuration
+const Group={
+    Player1:"Smruti",
+    Player2: "Akhil",
+    Player3:"XYZ"
+}
+//Group.Player2
+//  1.
+const {Player2}=Group
+console.log(Player2);       //Akhil
+// 2. We can also give a short name to player2 as:
+const {Player2: name}=Group
+console.log(name);      //Akhil
+
+// Values of APIs comes in Json foramt like
+// {
+//     "name":"Smruti",
+//     "Place":"Cuttack",   //In Json both key and values are written inside " "
+//     "Job":"Engineer"
+// }
