@@ -11,7 +11,7 @@ company.welcome_msg()       //Smrutipragyan! Welcome to the Company.
 company.Employee_name="Anshuman";
 company.welcome_msg()       //Anshuman! Welcome to the Company.
 
-//We can use this keyword inside an object . Inside functions we can't use
+//We can use 'this' keyword inside an object . Inside functions we can't use
 
         const Myfunction= function(){
              name:"Smruti"
