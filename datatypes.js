@@ -5,17 +5,17 @@
 //Premitive datatypes
 //7 types- Number,Null,Boolean,BigInt,String,Symbol,Undefind
 
-//Symbol
+//Symbol - basically used to make a number unique. Return type=symbol
 const num1=Symbol('123')
 const num2=Symbol('123')
-//BigInt
+//BigInt. return type= bigint
 let num=4567893216547n;
 console.log(typeof num);
 //console.log(num1===num2);   //false 
 //cuz symbol assigns diff values to the variables even if the the value entered by you is same
 
 //Reference datatypes(Non-premitive)
-// Arrays,Objects,Functions etc.
+// Arrays,Objects,Functions etc.    return type= object
 
  //Arrays
  let arr=["smruti","Akil","shailaja"];
@@ -29,7 +29,7 @@ console.log(typeof num);
  };
  console.log(mark);
 
- //Function
+ //Function   return type= object function
  const myFunc=function(){
  console.log(a+b);
  }
@@ -38,3 +38,6 @@ console.log(typeof num);
 
  //Memory
  //Premitive-Stack memory & Non-premitive/reference:Heap memory
+
+ const number=BigInt(12);
+ console.log(typeof number);
