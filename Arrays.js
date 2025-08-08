@@ -37,7 +37,7 @@ let Arr2 = ["Siksha","Shubh","Bhakti"];
 // console.log(Arr.push(Arr2));
 // console.log(Arr.concat(Arr2));
 
-//Spread Operator - While concat() concatinates only one var to another at the same time by using spread operator we can add more than one var to another by adding '...' before the var name inside [].
+//Spread Operator - While concat() concatinates only one array to another at the same time by using spread operator we can add more than one var to another by adding '...' before the var name inside [].
  let newArr=[...Arr,...Arr2];
  console.log(newArr);   //[ 'smruti', 'Anshuman', 'Siksha', 'Shubh', 'Bhakti' ]
 
