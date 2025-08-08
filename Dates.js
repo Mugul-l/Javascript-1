@@ -1,4 +1,4 @@
-let myDate=new Date();
+let myDate=new Date();         // Date is an object in JS
 console.log(myDate);
 console.log(myDate.toString());
 console.log(myDate.toDateString());
@@ -24,9 +24,12 @@ console.log(date3.getFullYear());   // 2023 - Currect year
 //1.Write todays date,time,month and Y in deatil in a sentence
 console.log(`Today's date is ${date3.getDate()} and month is ${date3.getMonth()+1} and the year is ${date3.getFullYear()}. [${date3.toDateString()}]`);
 
-let newDate=new Date();
-newDate.toLocaleString('default', {
+
+
+let anotherDate = new Date().toLocaleDateString('default', {
     weekday: "long",
-    dateStyle: "full",
-    month: "long"
+    month: "long",
+    day: "numeric",
+    year: "numeric"
 });
+console.log(anotherDate);

@@ -16,7 +16,7 @@ console.log(str.substring(0,5));    //Anshu
 console.log(str.slice(-6,5));  //shu
 console.log(name.trim());   //will remove the white spaces present in the whole string
 console.log(name.trimStart()); 
-console.log(name.trimEnd()); 
+console.log(name.trimE  nd()); 
 
 const url="https://smrutipragyan%15Biswal.com";
 console.log(url.replace('%15','-'));   // https://smrutipragyan-Biswal.com ('%15' replaced with '-')
