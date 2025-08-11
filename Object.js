@@ -52,7 +52,8 @@ let User3 ={
 
     }
 }
-//console.log(User3.User.Fullname);
+console.log(User3.User.Fullname);               //Smruti Biswal
+console.log(User3.User.Fullname.Firstname);     // Smruti
 
 //Add Object 
 let obj1 = {"1":"a","2":"b"}
@@ -92,10 +93,10 @@ const Group={
 //Group.Player2
 //  1.
 const {Player2}=Group
-console.log(Player2);       //Akhil
+//console.log(Player2);       //Akhil
 // 2. We can also give a short name to player2 as:
 const {Player2: name}=Group
-console.log(name);      //Akhil
+//console.log(name);      //Akhil
 
 // Values of APIs comes in Json foramt like
 // {
