@@ -16,6 +16,15 @@
 // AddNumbers(8,"2")       // Addition can not be executed. (Cuz the 2nd num is a string )
 
 //Using return statement
+
+
+function Multiply(num1,num2){
+    const res=num1*num2;
+    return res;                // the res is blocked scoped
+}
+const res=Multiply(5,3);        //this res is global
+//console.log("The multiplication of the 2 numbers: "+res);
+
 function Add(num1,num2){
  return num1+num2
 }
