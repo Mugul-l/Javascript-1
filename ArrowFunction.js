@@ -1,3 +1,16 @@
+//Difference between Normal function and Arrow Function
+
+// Normal Function
+// 📌 "Ask who called me"
+// When you use a normal function, JavaScript looks at how it was called to decide what this is.
+// The “owner” can change every time you call the function.
+
+// Arrow Function
+// 📌 "I’m loyal to where I was born"
+// An arrow function doesn’t ask “who called me.”
+// Instead, it remembers the this from the place where it was created.
+// It never changes that reference.
+
 let company={
     Employee_name:"Smrutipragyan",
     salary: 30000,
