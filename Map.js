@@ -10,7 +10,7 @@ console.log(map);
 // Loop - Map
 
 for (const key of map) {
-    console.log(key);           //It will print every key value pairs
+    console.log(key);           //It will print every key value pairs / retiurns the whole as object
 }
 
 //Way to access onle key/value/both
