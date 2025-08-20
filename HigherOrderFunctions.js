@@ -47,7 +47,7 @@ const diameter = function(radius){
 //         for(const i of radius){
 //             output.push(logic(i));
 //         }
-//         return output;
+//         return output
 // }
 
 // console.log(calculate(radius,Area));
