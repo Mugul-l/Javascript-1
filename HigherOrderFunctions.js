@@ -74,5 +74,28 @@ let num=[2,4,6,8]
     return sum;
  }
 
- console.log(Sum(num));
+// console.log(Sum(num));
  
+
+ //foreach
+
+ const languages=["Python","java","c++","ruby","golang"]
+
+ const res= languages.forEach((item)=>{
+    //console.log(item);
+  //  return item;        //foreach doesnot returns any value
+ })
+// console.log(res);      //undefined
+ 
+
+//Filter
+
+const nums=[1,3,5,6,3,8,9]
+
+//const result= nums.filter((num)=> num>5);
+
+const result= nums.filter((num)=> {
+   return  num>5;       // if using the {} then we need to return it else it will show error.
+})
+
+console.log(result);
