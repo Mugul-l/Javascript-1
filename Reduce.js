@@ -26,6 +26,7 @@ const shoopingCart=[
     {name:"pen",price:20},
     {name:"duster",price:50},
     {name:"colours",price:100},
+    {name:"Notebooks",price:150}
 ];
 let total= shoopingCart.reduce((acc,item)=>item.price+acc,0);
 console.log(total);
