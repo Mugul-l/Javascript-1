@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h2 id="heading1">First Heading...</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi deserunt sed eum voluptas architecto, deleniti quisquam assumenda quia optio? Recusandae perferendis tempore libero quam aperiam sint, atque debitis ratione. </p>
+
+        <h2 id="heading2">Second heading...</h2>
+        
+     
+     <h2 id="heading">My Heading</h2>
+    </div>
+</body>
+<script>
+     const para= document.createElement('p')
+     console.log(para);
+     para.textContent = "This is the second paragraph...Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi deserunt sed eum voluptas architecto." 
+     const heading= document.querySelector('#heading2')
+     const newpara=heading.appendChild(para)
+     newpara.style.fontSize='15px'
+
+
+
+// 1. Select the heading
+    const headingg = document.getElementById("heading");
+
+    // 2. Create a new element
+    const newPara = document.createElement("p");
+    newPara.textContent = "This paragraph is inserted with insertAdjacentElement.";
+
+    // 3. Insert it *after* the heading
+    headingg.insertAdjacentElement("afterend", newPara);
+</script>
+
+</script>
+</html>         
