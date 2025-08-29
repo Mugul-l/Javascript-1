@@ -5,7 +5,7 @@
 // Each HTML element becomes an object (a node) inside this tree, which JavaScript can access and manipulate. Basically Works like a tree of nodes (document → html → head/body → elements).
 
 
-//1. getElementBy...   -->  These are the old-school methods in JavaScript. They are specific and give you HTML elements directly.
+//1. getElementBy...   -->  These are the old-school methods in JavaScript. They are specific and give you HTML elements directly
 
 // getElementById → returns just one element. (cuz id is unique)
 // getElementsByClassName / getElementsByTagName → return a list of elements (not a single one).
