@@ -1,5 +1,5 @@
-//callback function -> it’s passed into another function.
-//Higher Order Function-> A function inside another function.
+//callback function -> it’s passed into another function as an argument.
+//Higher Order Function-> A function which takes another function as argument or returns a function is known as higher order functions which are the first class citizens in Javascript.
 
 function X(){  // Callback function because it is passed inside the Y function
     //console.log("I am Function 'X");
